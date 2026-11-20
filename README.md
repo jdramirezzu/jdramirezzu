@@ -30,7 +30,7 @@ I build data pipelines, ML models and LLM-powered tools that turn messy informat
 Some of my most relevant work lives in private repositories. Client names and data are kept confidential.
 
 - **Housing-market intelligence subagent for a real-estate developer.** An LLM agent that a client's AI assistant calls as a single tool. It answers housing-market questions and generates buyer-persona and market-opportunity reports with maps. It runs 42 scoped tools over a public-data pipeline (government demographic, housing and credit sources) and a curated knowledge wiki. It is privacy by design: raw internal rows never leave the service, and only aggregated figures reach the caller. It runs on DeepSeek or Gemini, is exposed over HTTP and MCP, ships as Docker images with CI, and its report viewer is tested across Chromium, Firefox and WebKit.
-- **Data foundation at Clearstory.** Dataform models on BigQuery with definition enforcement, automated rebuild alerts and CI.
+- **Cloud data warehousing.** Broad experience across Google Cloud Platform, designing and maintaining BigQuery warehouse architectures modeled with Dataform.
 
 **Impact highlight:** a PDF-processing automation that splits and tags a ~1,300-page monthly document saved a former employer about **USD 40K** in mailing costs ([Lector_pdf](https://github.com/jdramirezzu/Lector_pdf)).
 
