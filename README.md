@@ -1,6 +1,6 @@
 # Hi, I'm Juan Diego 👋
 
-**Data Specialist at [Clearstory](https://github.com/ExtrackerInc) · Google Cloud Certified Professional Data Engineer**
+**Data Specialist at Clearstory · Google Cloud Certified Professional Data Engineer**
 
 I build data pipelines, ML models and LLM-powered tools that turn messy information into decisions people can act on. I'm currently pursuing a Master's in Applied Artificial Intelligence, and I enjoy shipping things that actually get used. Coding is fun, even with AI.
 
