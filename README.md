@@ -1,6 +1,6 @@
 # Hi, I'm Juan Diego 👋
 
-**Data Engineer · Google Cloud Certified Professional Data Engineer**
+**Data Specialist at [Clearstory](https://github.com/ExtrackerInc) · Google Cloud Certified Professional Data Engineer**
 
 I build data pipelines, ML models and LLM-powered tools that turn messy information into decisions people can act on. I'm currently pursuing a Master's in Applied Artificial Intelligence, and I enjoy shipping things that actually get used. Coding is fun, even with AI.
 
@@ -25,13 +25,20 @@ I build data pipelines, ML models and LLM-powered tools that turn messy informat
 | [**EcoMarket Returns Agent**](https://github.com/jdramirezzu/ecomarket-returns-agent) | AI agent that automates product returns on top of a RAG knowledge base | LangChain, ChromaDB, OpenAI, Streamlit |
 | [**Lead Scraper**](https://github.com/jdramirezzu/Lead_scraper) | SaaS MVP that extracts, enriches and scores leads from Google Maps | Python, FastAPI, Playwright |
 
+### Selected private work
+
+Some of my most relevant work lives in private repositories. Client names and data are kept confidential.
+
+- **Housing-market intelligence subagent for a real-estate developer.** An LLM agent that a client's AI assistant calls as a single tool. It answers housing-market questions and generates buyer-persona and market-opportunity reports with maps. It runs 42 scoped tools over a public-data pipeline (government demographic, housing and credit sources) and a curated knowledge wiki. It is privacy by design: raw internal rows never leave the service, and only aggregated figures reach the caller. It runs on DeepSeek or Gemini, is exposed over HTTP and MCP, ships as Docker images with CI, and its report viewer is tested across Chromium, Firefox and WebKit.
+- **Data foundation at Clearstory.** Dataform models on BigQuery with definition enforcement, automated rebuild alerts and CI.
+
 **Impact highlight:** a PDF-processing automation that splits and tags a ~1,300-page monthly document saved a former employer about **USD 40K** in mailing costs ([Lector_pdf](https://github.com/jdramirezzu/Lector_pdf)).
 
 ## Tech stack
 
 **Languages:** Python · SQL · TypeScript
-**Data & cloud:** Google Cloud · Cloud Functions · Jupyter · GitHub Actions · Docker
-**AI / ML:** LangChain · OpenAI · Hugging Face Sentence Transformers · ChromaDB · Qdrant · RAG · AI agents
+**Data & cloud:** Google Cloud · BigQuery · Dataform · Cloud Functions · SQLite · Jupyter · GitHub Actions · Docker
+**AI / ML:** LLM agents & subagents · MCP · RAG · LangChain · OpenAI · Gemini · DeepSeek · Hugging Face Sentence Transformers · ChromaDB · Qdrant
 **Apps & APIs:** FastAPI · Flask · Streamlit · Astro · Playwright
 **Quality:** pytest · ruff · CI/CD
 
